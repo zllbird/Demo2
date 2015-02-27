@@ -44,7 +44,7 @@ public class NumberAdapter extends BaseAdapter {
         }else {
             viewHolder = (ViewHolder) convertView.getTag();
         }
-        viewHolder.textView.setText("这个位置是" + position + "   哈哈");
+        viewHolder.textView.setText("这个位置是" + position + "   哈哈 这是第二次了");
         return convertView;
     }
 
